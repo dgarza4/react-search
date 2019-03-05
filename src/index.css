@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* override bootstrap theme a bit to match the design */
+.navbar {
+  border-radius: none;
+}
+
+.navbar.navbar-inverse {
+  padding: 0;
+  color: white;
+  border-radius: none;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.table-bordered {
+  border: none;
+  text-align: left;
+  color: blue;
+}
+
+.table-bordered > tbody > tr > td {
+  border: none;
+  padding: 15px;
+}
